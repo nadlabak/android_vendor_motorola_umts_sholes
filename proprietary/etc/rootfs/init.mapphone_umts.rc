@@ -259,6 +259,9 @@ mount rootfs rootfs / ro remount
     insmod /system/lib/modules/twofish_common.ko
     insmod /system/lib/modules/twofish.ko
 
+# load ext2 module by default
+    insmod /system/lib/modules/ext2.ko
+
 # Start services
     exec /system/bin/mot_boot_mode.bin
 
