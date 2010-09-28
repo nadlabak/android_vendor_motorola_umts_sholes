@@ -1,0 +1,26 @@
+#!/system/xbin/bash
+   /system/xbin/mount -o remount,rw rootfs /
+   /system/xbin/mount -o remount,rw /system
+   if [ ! -d /system/sbin ]; then
+      mkdir /system/sbin
+   fi   
+   /system/xbin/mv -f /sbin/adbd /system/sbin/adbd
+   /system/xbin/ln -sf /system/xbin/ln /system/bin/ln
+   /system/xbin/rmdir /config
+   /system/xbin/rmdir /sdcard
+#   /system/xbin/cp /init.rc /init.rc.orig
+#   /system/xbin/cp /init.mapphone_umts.rc /init.mapphopne_umts.rc.orig
+   /system/xbin/cp -fr /etc/rootfs/* /
+
+   echo "-16" > /proc/$$/oom_adj
+
+   /system/xbin/umount /sdcard
+   /system/xbin/umount /dev/cpuctl
+   /system/xbin/umount /sqlite_stmt_journals
+   /system/xbin/umount /dev/pts
+   /system/xbin/umount /cdrom
+   /system/xbin/umount /pds
+   /system/xbin/umount /cache
+   /system/xbin/umount /tmp
+
+   exec /init
