@@ -4,12 +4,14 @@
 
 # we don't want adbd run by the first init instance
    if [ ! -d /system/sbin ]; then
-      mkdir /system/sbin
+      /system/bin/mkdir /system/sbin
    fi   
    /system/xbin/mv -f /sbin/adbd /system/sbin/adbd
 
 # init_prep_keypad.sh expects ln in /system/bin
    /system/xbin/ln -sf /system/xbin/ln /system/bin/ln
+   /init_prep_keypad.sh
+   /system/xbin/ln -sf /system/usr/keychars/qwerty.kcm.bin /system/usr/keychars/qtouch-touchscreen.kcm.bin
 
 # symlinks, not directories...
    /system/xbin/rmdir /config

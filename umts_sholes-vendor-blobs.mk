@@ -27,6 +27,7 @@ PRODUCT_COPY_FILES := \
 # All the blobs necessary 
 PRODUCT_COPY_FILES += \
     vendor/motorola/umts_sholes/proprietary/etc/cameraCalFileDef.bin:/system/etc/cameraCalFileDef.bin \
+    vendor/motorola/umts_sholes/proprietary/etc/01_Vendor_ti_omx.cfg:/system/etc/01_Vendor_ti_omx.cfg \
     vendor/motorola/umts_sholes/proprietary/etc/init.d/10overclock:/system/etc/init.d/10overclock \
     vendor/motorola/umts_sholes/proprietary/etc/init.d/00adb_during_boot:/system/etc/init.d/00adb_during_boot \
     vendor/motorola/umts_sholes/proprietary/etc/gpsconfig.xml:/system/etc/gpsconfig.xml \
