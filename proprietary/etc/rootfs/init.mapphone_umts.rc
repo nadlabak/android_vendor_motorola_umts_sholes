@@ -4,10 +4,9 @@ on init
     symlink /dev /dev/netmux
 # prepare generic keypad name
     mount yaffs2 mtd@system /system rw remount
-    exec /init_prep_keypad.sh
+    exec /system/bin/init_prep_keypad.sh
     mount yaffs2 mtd@system /system ro remount
-# adjust the second init's oom
-#    exec /init_oom_adj.sh
+
 # sometimes the first init instance manages to run adbd even after
 # the exec of mot_boot_mode hijack, just before the second init
 # instance is launched. let's kill it here

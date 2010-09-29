@@ -78,6 +78,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/umts_sholes/proprietary/etc/rootfs/default.prop:/system/etc/rootfs/default.prop \
     vendor/motorola/umts_sholes/proprietary/etc/rootfs/init.rc:/system/etc/rootfs/init.rc \
     vendor/motorola/umts_sholes/proprietary/bin/init_kill_old_adbd.sh:/system/bin/init_kill_old_adbd.sh \
+    vendor/motorola/umts_sholes/proprietary/bin/init_prep_keypad.sh:/system/bin/init_prep_keypad.sh \
     vendor/motorola/umts_sholes/proprietary/etc/rootfs/init.mapphone_umts.rc:/system/etc/rootfs/init.mapphone_umts.rc \
     vendor/motorola/umts_sholes/proprietary/etc/wifi/wpa_supplicant.conf:/system/etc/wifi/wpa_supplicant.conf \
     vendor/motorola/umts_sholes/proprietary/etc/wifi/fw_wlan1271.bin:/system/etc/wifi/fw_wlan1271.bin \
