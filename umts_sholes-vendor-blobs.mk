@@ -187,8 +187,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/umts_sholes/proprietary/lib/libspeech.so:/system/lib/libspeech.so \
     vendor/motorola/umts_sholes/proprietary/lib/libopencore_asflocal.so:/system/lib/libopencore_asflocal.so \
     vendor/motorola/umts_sholes/proprietary/lib/libopencore_asflocalreg.so:/system/lib/libopencore_asflocalreg.so \
-    vendor/motorola/umts_sholes/proprietary/lib/libOMX.TI.720P.Decoder.so:/system/lib/libOMX.TI.720P.Decoder.so \
-    vendor/motorola/umts_sholes/proprietary/lib/libOMX.TI.720P.Encoder.so:/system/lib/libOMX.TI.720P.Encoder.so \
     vendor/motorola/umts_sholes/proprietary/lib/libOMX.TI.AAC.decode.so:/system/lib/libOMX.TI.AAC.decode.so \
     vendor/motorola/umts_sholes/proprietary/lib/libOMX.TI.AAC.encode.so:/system/lib/libOMX.TI.AAC.encode.so \
     vendor/motorola/umts_sholes/proprietary/lib/libOMX.TI.AMR.decode.so:/system/lib/libOMX.TI.AMR.decode.so \
@@ -205,9 +203,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/umts_sholes/proprietary/lib/libPERF.so:/system/lib/libPERF.so \
     vendor/motorola/umts_sholes/proprietary/lib/libVendor_ti_omx.so:/system/lib/libVendor_ti_omx.so \
     vendor/motorola/umts_sholes/proprietary/lib/libVendor_ti_omx_config_parser.so:/system/lib/libVendor_ti_omx_config_parser.so \
-    vendor/motorola/umts_sholes/proprietary/lib/dsp/720p_h264vdec_sn.dll64P:/system/lib/dsp/720p_h264vdec_sn.dll64P \
-    vendor/motorola/umts_sholes/proprietary/lib/dsp/720p_mp4vdec_sn.dll64P:/system/lib/dsp/720p_mp4vdec_sn.dll64P \
-    vendor/motorola/umts_sholes/proprietary/lib/dsp/720p_mp4venc_sn.dll64P:/system/lib/dsp/720p_mp4venc_sn.dll64P \
     vendor/motorola/umts_sholes/proprietary/lib/dsp/mp3dec_sn.dll64P:/system/lib/dsp/mp3dec_sn.dll64P \
     vendor/motorola/umts_sholes/proprietary/lib/dsp/mpeg4aacdec_sn.dll64P:/system/lib/dsp/mpeg4aacdec_sn.dll64P \
     vendor/motorola/umts_sholes/proprietary/lib/dsp/nbamrdec_sn.dll64P:/system/lib/dsp/nbamrdec_sn.dll64P \
