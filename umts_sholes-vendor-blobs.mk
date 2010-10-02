@@ -28,6 +28,7 @@ PRODUCT_COPY_FILES := \
 PRODUCT_COPY_FILES += \
     vendor/motorola/umts_sholes/proprietary/etc/cameraCalFileDef.bin:/system/etc/cameraCalFileDef.bin \
     vendor/motorola/umts_sholes/proprietary/etc/01_Vendor_ti_omx.cfg:/system/etc/01_Vendor_ti_omx.cfg \
+    vendor/motorola/umts_sholes/proprietary/etc/pvplayer_mot.cfg:/system/etc/pvplayer_mot.cfg \
     vendor/motorola/umts_sholes/proprietary/etc/init.d/10overclock:/system/etc/init.d/10overclock \
     vendor/motorola/umts_sholes/proprietary/etc/init.d/00adb_during_boot:/system/etc/init.d/00adb_during_boot \
     vendor/motorola/umts_sholes/proprietary/etc/gpsconfig.xml:/system/etc/gpsconfig.xml \
@@ -106,6 +107,8 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/umts_sholes/proprietary/app/ProgramMenu.apk:/system/app/ProgramMenu.apk \
     vendor/motorola/umts_sholes/proprietary/app/ProgramMenuSystem.apk:/system/app/ProgramMenuSystem.apk \
     vendor/motorola/umts_sholes/proprietary/app/Usb.apk:/system/app/Usb.apk \
+    vendor/motorola/umts_sholes/proprietary/app/PersonalPortal.apk:/system/app/PersonalPortal.apk \
+    vendor/motorola/umts_sholes/proprietary/app/QuickOffice.apk:/system/app/QuickOffice.apk \
     vendor/motorola/umts_sholes/proprietary/bin/tcmd:/system/bin/tcmd \
     vendor/motorola/umts_sholes/proprietary/bin/frametest:/system/bin/frametest \
     vendor/motorola/umts_sholes/proprietary/bin/safe_reboot:/system/bin/safe_reboot \
@@ -182,6 +185,8 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/umts_sholes/proprietary/lib/libtpa_core.so:/system/lib/libtpa_core.so \
     vendor/motorola/umts_sholes/proprietary/lib/libril-moto-umts-1.so:/system/lib/libril-moto-umts-1.so \
     vendor/motorola/umts_sholes/proprietary/lib/libspeech.so:/system/lib/libspeech.so \
+    vendor/motorola/umts_sholes/proprietary/lib/libopencore_asflocal.so:/system/lib/libopencore_asflocal.so \
+    vendor/motorola/umts_sholes/proprietary/lib/libopencore_asflocalreg.so:/system/lib/libopencore_asflocalreg.so \
     vendor/motorola/umts_sholes/proprietary/lib/libOMX.TI.720P.Decoder.so:/system/lib/libOMX.TI.720P.Decoder.so \
     vendor/motorola/umts_sholes/proprietary/lib/libOMX.TI.720P.Encoder.so:/system/lib/libOMX.TI.720P.Encoder.so \
     vendor/motorola/umts_sholes/proprietary/lib/libOMX.TI.AAC.decode.so:/system/lib/libOMX.TI.AAC.decode.so \
