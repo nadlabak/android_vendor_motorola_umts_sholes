@@ -30,6 +30,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/umts_sholes/proprietary/etc/01_Vendor_ti_omx.cfg:/system/etc/01_Vendor_ti_omx.cfg \
     vendor/motorola/umts_sholes/proprietary/etc/pvplayer_mot.cfg:/system/etc/pvplayer_mot.cfg \
     vendor/motorola/umts_sholes/proprietary/etc/init.d/10overclock:/system/etc/init.d/10overclock \
+    vendor/motorola/umts_sholes/proprietary/etc/init.d/11kholks_tweak:/system/etc/init.d/11kholks_tweak \
     vendor/motorola/umts_sholes/proprietary/etc/init.d/00adb_during_boot:/system/etc/init.d/00adb_during_boot \
     vendor/motorola/umts_sholes/proprietary/etc/gpsconfig.xml:/system/etc/gpsconfig.xml \
     vendor/motorola/umts_sholes/proprietary/etc/excluded-input-devices.xml:/system/etc/excluded-input-devices.xml \
@@ -80,6 +81,8 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/umts_sholes/proprietary/etc/rootfs/init.rc:/system/etc/rootfs/init.rc \
     vendor/motorola/umts_sholes/proprietary/bin/init_kill_old_adbd.sh:/system/bin/init_kill_old_adbd.sh \
     vendor/motorola/umts_sholes/proprietary/bin/init_prep_keypad.sh:/system/bin/init_prep_keypad.sh \
+    vendor/motorola/umts_sholes/proprietary/bin/Toggle2G.apk:/system/bin/Toggle2G.apk \
+    vendor/motorola/umts_sholes/proprietary/bin/Toggle 2G Notification Plugin.apk:/system/bin/Toggle 2G Notification Plugin.apk \
     vendor/motorola/umts_sholes/proprietary/etc/rootfs/init.mapphone_umts.rc:/system/etc/rootfs/init.mapphone_umts.rc \
     vendor/motorola/umts_sholes/proprietary/etc/wifi/wpa_supplicant.conf:/system/etc/wifi/wpa_supplicant.conf \
     vendor/motorola/umts_sholes/proprietary/etc/wifi/fw_wlan1271.bin:/system/etc/wifi/fw_wlan1271.bin \
