@@ -30,7 +30,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/umts_sholes/proprietary/etc/01_Vendor_ti_omx.cfg:/system/etc/01_Vendor_ti_omx.cfg \
     vendor/motorola/umts_sholes/proprietary/etc/pvplayer_mot.cfg:/system/etc/pvplayer_mot.cfg \
     vendor/motorola/umts_sholes/proprietary/etc/init.d/10overclock:/system/etc/init.d/10overclock \
-    vendor/motorola/umts_sholes/proprietary/etc/init.d/11kholks_tweak:/system/etc/init.d/11kholks_tweak \
+    vendor/motorola/umts_sholes/proprietary/etc/init.d/11kernel_tuning:/system/etc/init.d/11kernel_tuning \
     vendor/motorola/umts_sholes/proprietary/etc/init.d/00adb_during_boot:/system/etc/init.d/00adb_during_boot \
     vendor/motorola/umts_sholes/proprietary/etc/gpsconfig.xml:/system/etc/gpsconfig.xml \
     vendor/motorola/umts_sholes/proprietary/etc/excluded-input-devices.xml:/system/etc/excluded-input-devices.xml \
