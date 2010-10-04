@@ -1,6 +1,6 @@
 #!/system/bin/sh
 #
-# contributed by kholk
+# contributed by kholk & xslntx
 #
 # Disable normalized sleeper
 #
@@ -18,7 +18,7 @@ sysctl -w net.core.rmem_max=524288
 sysctl -w net.ipv4.tcp_tw_recycle=1
 sysctl -w net.ipv4.tcp_rmem='6144 87380 524288'
 sysctl -w net.ipv4.tcp_wmem='6144 87380 524288'
-sysctl -w kernel.sched_latency_ns=5000000
-sysctl -w kernel.sched_min_granularity_ns=1000000
-sysctl -w kernel.sched_wakeup_granularity_ns=1000000
+sysctl -w kernel.sched_latency_ns=600000
+sysctl -w kernel.sched_min_granularity_ns=400000
+sysctl -w kernel.sched_wakeup_granularity_ns=400000
 
