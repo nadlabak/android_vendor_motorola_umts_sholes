@@ -8,8 +8,8 @@ echo 900000 > /proc/overclock/max_rate
 
 #echo "5 900000000 60" > /proc/overclock/mpu_opps
  echo "4 700000000 49" > /proc/overclock/mpu_opps
- echo "3 500000000 37" > /proc/overclock/mpu_opps
- echo "2 250000000 29" > /proc/overclock/mpu_opps
+ echo "3 500000000 44" > /proc/overclock/mpu_opps
+ echo "2 250000000 33" > /proc/overclock/mpu_opps
 #echo "1 125000000 32" > /proc/overclock/mpu_opps
 
 #echo "0 900000" > /proc/overclock/freq_table
