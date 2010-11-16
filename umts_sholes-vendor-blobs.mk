@@ -109,6 +109,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/umts_sholes/proprietary/app/PersonalPortal.apk:/system/app/PersonalPortal.apk \
     vendor/motorola/umts_sholes/proprietary/app/QuickOffice.apk:/system/app/QuickOffice.apk \
     vendor/motorola/umts_sholes/proprietary/app/Mynet.apk:/system/app/Mynet.apk \
+    vendor/motorola/umts_sholes/proprietary/app/BatteryMonitor.apk:/system/app/BatteryMonitor.apk \
     vendor/motorola/umts_sholes/proprietary/bin/dnsmasq_mot:/system/bin/dnsmasq_mot \
     vendor/motorola/umts_sholes/proprietary/bin/tcmd:/system/bin/tcmd \
     vendor/motorola/umts_sholes/proprietary/bin/safe_reboot:/system/bin/safe_reboot \
@@ -180,6 +181,8 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/umts_sholes/proprietary/lib/libpvasfcommon.so:/system/lib/libpvasfcommon.so \
     vendor/motorola/umts_sholes/proprietary/lib/libpvasflocalpb.so:/system/lib/libpvasflocalpb.so \
     vendor/motorola/umts_sholes/proprietary/lib/libpvasflocalpbreg.so:/system/lib/libpvasflocalpbreg.so \
+    vendor/motorola/umts_sholes/proprietary/lib/libopencore_asflocal.so:/system/lib/libopencore_asflocal.so \
+    vendor/motorola/umts_sholes/proprietary/lib/libopencore_asflocalreg.so:/system/lib/libopencore_asflocalreg.so \
     vendor/motorola/umts_sholes/proprietary/lib/libomx_wmadec_sharedlibrary.so:/system/lib/libomx_wmadec_sharedlibrary.so \
     vendor/motorola/umts_sholes/proprietary/lib/libomx_wmvdec_sharedlibrary.so:/system/lib/libomx_wmvdec_sharedlibrary.so \
     vendor/motorola/umts_sholes/proprietary/lib/libhostapd_client.so:/system/lib/libhostapd_client.so \
