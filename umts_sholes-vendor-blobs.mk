@@ -109,7 +109,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/umts_sholes/proprietary/app/QuickOffice.apk:/system/app/QuickOffice.apk \
     vendor/motorola/umts_sholes/proprietary/app/Mynet.apk:/system/app/Mynet.apk \
     vendor/motorola/umts_sholes/proprietary/bin/dnsmasq_mot:/system/bin/dnsmasq_mot \
-    vendor/motorola/umts_sholes/proprietary/bin/tcmd:/system/bin/tcmd \
     vendor/motorola/umts_sholes/proprietary/bin/safe_reboot:/system/bin/safe_reboot \
     vendor/motorola/umts_sholes/proprietary/bin/logfilter-get:/system/bin/logfilter-get \
     vendor/motorola/umts_sholes/proprietary/bin/mot_boot_mode:/system/bin/mot_boot_mode \
