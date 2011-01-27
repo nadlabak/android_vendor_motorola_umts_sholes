@@ -20,9 +20,7 @@ PRODUCT_COPY_FILES := \
     vendor/motorola/umts_sholes/proprietary/lib/libaudio.so:obj/lib/libaudio.so \
     vendor/motorola/umts_sholes/proprietary/lib/libaudiopolicy.so:obj/lib/libaudiopolicy.so \
     vendor/motorola/umts_sholes/proprietary/lib/libril-moto-umts-1.so:obj/lib/libril-moto-umts-1.so \
-    vendor/motorola/umts_sholes/proprietary/lib/hw/gralloc.omap3.so:obj/lib/hw/gralloc.omap3.so \
-    vendor/motorola/umts_sholes/proprietary/lib/hw/lights.sholes.so:obj/lib/hw/lights.sholes.so \
-    vendor/motorola/umts_sholes/proprietary/lib/hw/sensors.sholes.so:obj/lib/hw/sensors.sholes.so
+    vendor/motorola/umts_sholes/proprietary/lib/hw/gralloc.omap3.so:obj/lib/hw/gralloc.omap3.so
 
 # All the blobs necessary 
 PRODUCT_COPY_FILES += \
@@ -137,7 +135,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/umts_sholes/proprietary/lib/libIMGegl.so:/system/lib/libIMGegl.so \
     vendor/motorola/umts_sholes/proprietary/lib/libsrv_um.so:/system/lib/libsrv_um.so \
     vendor/motorola/umts_sholes/proprietary/lib/libssmgr.so:/system/lib/libssmgr.so \
-    vendor/motorola/umts_sholes/proprietary/lib/hw/lights.sholes.so:/system/lib/hw/lights.sholes.so \
     vendor/motorola/umts_sholes/proprietary/lib/hw/gralloc.omap3.so:/system/lib/hw/gralloc.omap3.so \
     vendor/motorola/umts_sholes/proprietary/lib/libtpa.so:/system/lib/libtpa.so \
     vendor/motorola/umts_sholes/proprietary/lib/libpppd_plugin.so:/system/lib/libpppd_plugin.so \
