@@ -145,7 +145,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/umts_sholes/proprietary/lib/libpvrANDROID_WSEGL.so:/system/lib/libpvrANDROID_WSEGL.so \
     vendor/motorola/umts_sholes/proprietary/lib/libcamera.so:/system/lib/libcamera.so \
     vendor/motorola/umts_sholes/proprietary/lib/libaudio.so:/system/lib/libaudio.so \
-    vendor/motorola/umts_sholes/proprietary/lib/libgki.so:/system/lib/libgki.so \
     vendor/motorola/umts_sholes/proprietary/lib/libbattd.so:/system/lib/libbattd.so \
     vendor/motorola/umts_sholes/proprietary/lib/libsecclkdlib.so:/system/lib/libsecclkdlib.so \
     vendor/motorola/umts_sholes/proprietary/lib/libglslcompiler.so:/system/lib/libglslcompiler.so \
