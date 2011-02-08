@@ -30,7 +30,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/umts_sholes/proprietary/etc/01_Vendor_ti_omx.cfg:/system/etc/01_Vendor_ti_omx.cfg
 
 PRODUCT_COPY_FILES += \
-    vendor/motorola/umts_sholes/proprietary/etc/pvasflocal.cfg:/system/etc/pvasflocal.cfg \
     vendor/motorola/umts_sholes/proprietary/etc/gpsconfig.xml:/system/etc/gpsconfig.xml \
     vendor/motorola/umts_sholes/proprietary/etc/excluded-input-devices.xml:/system/etc/excluded-input-devices.xml \
     vendor/motorola/umts_sholes/proprietary/etc/permissions/motorola_platform.xml:/system/etc/permissions/motorola_platform.xml \
@@ -75,7 +74,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/umts_sholes/proprietary/etc/motorola/com.android.providers.settings/system.mkitso:/system/etc/motorola/com.android.providers.settings/system.mkitso \
     vendor/motorola/umts_sholes/proprietary/etc/motorola/com.android.providers.settings/secure.mkitso:/system/etc/motorola/com.android.providers.settings/secure.mkitso \
     vendor/motorola/umts_sholes/proprietary/etc/firmware/wl1271.bin:/system/etc/firmware/wl1271.bin \
-    vendor/motorola/umts_sholes/proprietary/etc/wifi/wpa_supplicant.conf:/system/etc/wifi/wpa_supplicant.conf \
     vendor/motorola/umts_sholes/proprietary/etc/wifi/hostapd.conf.templet:/system/etc/wifi/hostapd.conf.templet \
     vendor/motorola/umts_sholes/proprietary/etc/wifi/fw_wlan1271.bin:/system/etc/wifi/fw_wlan1271.bin \
     vendor/motorola/umts_sholes/proprietary/etc/wifi/fw_tiwlan_ap.bin:/system/etc/wifi/fw_tiwlan_ap.bin \
@@ -170,13 +168,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/umts_sholes/proprietary/lib/libtpa_core.so:/system/lib/libtpa_core.so \
     vendor/motorola/umts_sholes/proprietary/lib/libril-moto-umts-1.so:/system/lib/libril-moto-umts-1.so \
     vendor/motorola/umts_sholes/proprietary/lib/libspeech.so:/system/lib/libspeech.so \
-    vendor/motorola/umts_sholes/proprietary/lib/libpvasfcommon.so:/system/lib/libpvasfcommon.so \
-    vendor/motorola/umts_sholes/proprietary/lib/libpvasflocalpb.so:/system/lib/libpvasflocalpb.so \
-    vendor/motorola/umts_sholes/proprietary/lib/libpvasflocalpbreg.so:/system/lib/libpvasflocalpbreg.so \
-    vendor/motorola/umts_sholes/proprietary/lib/libopencore_asflocal.so:/system/lib/libopencore_asflocal.so \
-    vendor/motorola/umts_sholes/proprietary/lib/libopencore_asflocalreg.so:/system/lib/libopencore_asflocalreg.so \
-    vendor/motorola/umts_sholes/proprietary/lib/libomx_wmadec_sharedlibrary.so:/system/lib/libomx_wmadec_sharedlibrary.so \
-    vendor/motorola/umts_sholes/proprietary/lib/libomx_wmvdec_sharedlibrary.so:/system/lib/libomx_wmvdec_sharedlibrary.so \
     vendor/motorola/umts_sholes/proprietary/lib/libhostapd_client.so:/system/lib/libhostapd_client.so \
     vendor/motorola/umts_sholes/proprietary/lib/libMynetNativeJni.so:/system/lib/libMynetNativeJni.so \
     vendor/motorola/umts_sholes/proprietary/lib/libWifiAPHardware.so:/system/lib/libWifiAPHardware.so \
@@ -198,8 +189,6 @@ PRODUCT_COPY_FILES += \
 #    vendor/motorola/umts_sholes/proprietary/lib/libLCML.so:/system/lib/libLCML.so
 
 PRODUCT_COPY_FILES += \
-    vendor/motorola/umts_sholes/proprietary/lib/dsp/wmadec_sn.dll64P:/system/lib/dsp/wmadec_sn.dll64P \
-    vendor/motorola/umts_sholes/proprietary/lib/dsp/wmv9dec_sn.dll64P:/system/lib/dsp/wmv9dec_sn.dll64P \
     vendor/motorola/umts_sholes/proprietary/lib/dsp/wbamrdec_sn.dll64P:/system/lib/dsp/wbamrdec_sn.dll64P \
     vendor/motorola/umts_sholes/proprietary/lib/dsp/wbamrenc_sn.dll64P:/system/lib/dsp/wbamrenc_sn.dll64P \
     vendor/motorola/umts_sholes/proprietary/lib/dsp/conversions.dll64P:/system/lib/dsp/conversions.dll64P \
