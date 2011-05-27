@@ -109,6 +109,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/umts_sholes/proprietary/bin/logfilter-get:/system/bin/logfilter-get \
     vendor/motorola/umts_sholes/proprietary/bin/mot_boot_mode:/system/bin/mot_boot_mode \
     vendor/motorola/umts_sholes/proprietary/bin/battd:/system/bin/battd \
+    vendor/motorola/umts_sholes/proprietary/bin/batt2d:/system/bin/batt2d \
     vendor/motorola/umts_sholes/proprietary/bin/gkilogd:/system/bin/gkilogd \
     vendor/motorola/umts_sholes/proprietary/bin/akmd2:/system/bin/akmd2 \
     vendor/motorola/umts_sholes/proprietary/bin/bthelp:/system/bin/bthelp \
