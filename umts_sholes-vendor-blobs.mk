@@ -108,7 +108,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/umts_sholes/proprietary/bin/dnsmasq_mot:/system/bin/dnsmasq_mot \
     vendor/motorola/umts_sholes/proprietary/bin/safe_reboot:/system/bin/safe_reboot \
     vendor/motorola/umts_sholes/proprietary/bin/logfilter-get:/system/bin/logfilter-get \
-    vendor/motorola/umts_sholes/proprietary/bin/mot_boot_mode:/system/bin/mot_boot_mode \
     vendor/motorola/umts_sholes/proprietary/bin/battd:/system/bin/battd \
     vendor/motorola/umts_sholes/proprietary/bin/batt2d:/system/bin/batt2d \
     vendor/motorola/umts_sholes/proprietary/bin/gkilogd:/system/bin/gkilogd \
@@ -131,7 +130,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/umts_sholes/proprietary/bin/usbd:/system/bin/usbd \
     vendor/motorola/umts_sholes/proprietary/bin/catcommands:/system/bin/catcommands \
     vendor/motorola/umts_sholes/proprietary/bin/Hostapd:/system/bin/Hostapd \
-    vendor/motorola/umts_sholes/proprietary/bin/charge_only_mode:/system/bin/charge_only_mode \
     vendor/motorola/umts_sholes/proprietary/lib/libIMGegl.so:/system/lib/libIMGegl.so \
     vendor/motorola/umts_sholes/proprietary/lib/libsrv_um.so:/system/lib/libsrv_um.so \
     vendor/motorola/umts_sholes/proprietary/lib/libssmgr.so:/system/lib/libssmgr.so \
