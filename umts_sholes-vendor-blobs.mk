@@ -158,7 +158,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/umts_sholes/proprietary/lib/modules/wl127x_test.ko:/system/lib/modules/wl127x_test.ko \
     vendor/motorola/umts_sholes/proprietary/lib/modules/sec.ko:/system/lib/modules/sec.ko \
     vendor/motorola/umts_sholes/proprietary/lib/modules/modem_pm_driver.ko:/system/lib/modules/modem_pm_driver.ko \
-    vendor/motorola/umts_sholes/proprietary/lib/modules/tiwlan_drv.ko:/system/lib/modules/tiwlan_drv.ko \
     vendor/motorola/umts_sholes/proprietary/lib/modules/hid-dummy.ko:/system/lib/modules/hid-dummy.ko \
     vendor/motorola/umts_sholes/proprietary/lib/modules/netmux_linkdriver.ko:/system/lib/modules/netmux_linkdriver.ko \
     vendor/motorola/umts_sholes/proprietary/lib/libgps.so:/system/lib/libgps.so \
