@@ -34,10 +34,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/umts_sholes/proprietary/etc/excluded-input-devices.xml:/system/etc/excluded-input-devices.xml \
     vendor/motorola/umts_sholes/proprietary/etc/permissions/motorola_platform.xml:/system/etc/permissions/motorola_platform.xml \
     vendor/motorola/umts_sholes/proprietary/etc/permissions/required_hardware.xml:/system/etc/permissions/required_hardware.xml \
-    vendor/motorola/umts_sholes/proprietary/etc/motorola/com.motorola.android.providers.settings/settings.mkitso:/system/etc/motorola/com.motorola.android.providers.settings/settings.mkitso \
-    vendor/motorola/umts_sholes/proprietary/etc/motorola/com.motorola.android.dm.service/databases/dmAccounts.xml:/system/etc/motorola/com.motorola.android.dm.service/databases/dmAccounts.xml \
-    vendor/motorola/umts_sholes/proprietary/etc/motorola/com.motorola.widget.weather.accuweather/weather_setting.mkitso:/system/etc/motorola/com.motorola.widget.weather.accuweather/weather_setting.mkitso \
-    vendor/motorola/umts_sholes/proprietary/etc/motorola/com.motorola.providers.messaging/mms_config.mkitso:/system/etc/motorola/com.motorola.providers.messaging/mms_config.mkitso \
     vendor/motorola/umts_sholes/proprietary/etc/motorola/bp_nvm_default/File_Audio4:/system/etc/motorola/bp_nvm_default/File_Audio4 \
     vendor/motorola/umts_sholes/proprietary/etc/motorola/bp_nvm_default/File_Audio1_AMR_WB:/system/etc/motorola/bp_nvm_default/File_Audio1_AMR_WB \
     vendor/motorola/umts_sholes/proprietary/etc/motorola/bp_nvm_default/File_GSM:/system/etc/motorola/bp_nvm_default/File_GSM \
@@ -57,7 +53,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/umts_sholes/proprietary/etc/motorola/bp_nvm_default/File_Audio4_AMR_WB:/system/etc/motorola/bp_nvm_default/File_Audio4_AMR_WB \
     vendor/motorola/umts_sholes/proprietary/etc/motorola/bp_nvm_default/File_Audio2_AMR_WB:/system/etc/motorola/bp_nvm_default/File_Audio2_AMR_WB \
     vendor/motorola/umts_sholes/proprietary/etc/motorola/bplogd.conf:/system/etc/motorola/bplogd.conf \
-    vendor/motorola/umts_sholes/proprietary/etc/motorola/com.motorola.dock/dock_setting.mkitso:/system/etc/motorola/com.motorola.dock/dock_setting.mkitso \
     vendor/motorola/umts_sholes/proprietary/etc/motorola/12m/key_code_map.txt:/system/etc/motorola/12m/key_code_map.txt \
     vendor/motorola/umts_sholes/proprietary/etc/motorola/comm_drv/mmins_user_settings.cfg:/system/etc/motorola/comm_drv/mmins_user_settings.cfg \
     vendor/motorola/umts_sholes/proprietary/etc/motorola/comm_drv/mmins_telephony.cfg:/system/etc/motorola/comm_drv/mmins_telephony.cfg \
@@ -66,13 +61,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/umts_sholes/proprietary/etc/motorola/comm_drv/commdrv_fs.sh:/system/etc/motorola/comm_drv/commdrv_fs.sh \
     vendor/motorola/umts_sholes/proprietary/etc/motorola/comm_drv/mmins_settings.cfg:/system/etc/motorola/comm_drv/mmins_settings.cfg \
     vendor/motorola/umts_sholes/proprietary/etc/motorola/comm_drv/mmins_cust_emergency_number.cfg:/system/etc/motorola/comm_drv/mmins_cust_emergency_number.cfg \
-    vendor/motorola/umts_sholes/proprietary/etc/motorola/com.motorola.mtlr/notes.mkitso:/system/etc/motorola/com.motorola.mtlr/notes.mkitso \
-    vendor/motorola/umts_sholes/proprietary/etc/motorola/com.motorola.providers.settings/gservices.mkitso:/system/etc/motorola/com.motorola.providers.settings/gservices.mkitso \
-    vendor/motorola/umts_sholes/proprietary/etc/motorola/com.motorola.android.fota/flex.mkitso:/system/etc/motorola/com.motorola.android.fota/flex.mkitso \
-    vendor/motorola/umts_sholes/proprietary/etc/motorola/com.android.browser/operatorhomepage.mkitso:/system/etc/motorola/com.android.browser/operatorhomepage.mkitso \
-    vendor/motorola/umts_sholes/proprietary/etc/motorola/com.android.browser/databases/bookmarks.xml:/system/etc/motorola/com.android.browser/databases/bookmarks.xml \
-    vendor/motorola/umts_sholes/proprietary/etc/motorola/com.android.providers.settings/system.mkitso:/system/etc/motorola/com.android.providers.settings/system.mkitso \
-    vendor/motorola/umts_sholes/proprietary/etc/motorola/com.android.providers.settings/secure.mkitso:/system/etc/motorola/com.android.providers.settings/secure.mkitso \
     vendor/motorola/umts_sholes/proprietary/etc/firmware/wl1271.bin:/system/etc/firmware/wl1271.bin \
     vendor/motorola/umts_sholes/proprietary/etc/wifi/hostapd.conf.templet:/system/etc/wifi/hostapd.conf.templet \
     vendor/motorola/umts_sholes/proprietary/etc/wifi/fw_wlan1271.bin:/system/etc/wifi/fw_wlan1271.bin \
@@ -201,7 +189,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/umts_sholes/proprietary/lib/dsp/nbamrenc_sn.dll64P:/system/lib/dsp/nbamrenc_sn.dll64P \
     vendor/motorola/umts_sholes/proprietary/lib/dsp/mp4vdec_sn.dll64P:/system/lib/dsp/mp4vdec_sn.dll64P \
     vendor/motorola/umts_sholes/proprietary/lib/dsp/m4venc_sn.dll64P:/system/lib/dsp/m4venc_sn.dll64P \
-    vendor/motorola/umts_sholes/proprietary/lib/dsp/mp3dec_sn.dll64P:/system/lib/dsp/mp3dec_sn.dll64P \
     vendor/motorola/umts_sholes/proprietary/lib/dsp/mpeg4aacdec_sn.dll64P:/system/lib/dsp/mpeg4aacdec_sn.dll64P \
     vendor/motorola/umts_sholes/proprietary/lib/dsp/mpeg4aacenc_sn.dll64P:/system/lib/dsp/mpeg4aacenc_sn.dll64P \
     vendor/motorola/umts_sholes/proprietary/tts/lang_pico/en-US_lh0_sg.bin:/system/tts/lang_pico/en-US_lh0_sg.bin \
