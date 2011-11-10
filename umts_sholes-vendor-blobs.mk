@@ -83,6 +83,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/umts_sholes/proprietary/usr/keychars/sholesp2a-keypad-arabic.kcm.bin:/system/usr/keychars/sholesp2a-keypad-arabic.kcm.bin \
     vendor/motorola/umts_sholes/proprietary/usr/keychars/sholesp2a-keypad-hebrew.kcm.bin:/system/usr/keychars/sholesp2a-keypad-hebrew.kcm.bin \
     vendor/motorola/umts_sholes/proprietary/usr/keychars/sholesp2a-keypad-russian.kcm.bin:/system/usr/keychars/sholesp2a-keypad-russian.kcm.bin \
+    vendor/motorola/umts_sholes/proprietary/usr/keychars/sholesp2a-keypad-russian2.kcm.bin:/system/usr/keychars/sholesp2a-keypad-russian2.kcm.bin \
     vendor/motorola/umts_sholes/proprietary/usr/keychars/sholesp1b-keypad.kcm.bin:/system/usr/keychars/sholesp1b-keypad.kcm.bin \
     vendor/motorola/umts_sholes/proprietary/usr/keychars/sholesp1a-keypad.kcm.bin:/system/usr/keychars/sholesp1a-keypad.kcm.bin \
     vendor/motorola/umts_sholes/proprietary/usr/keychars/icestorms0a-keypad.kcm.bin:/system/usr/keychars/icestorms0a-keypad.kcm.bin \
