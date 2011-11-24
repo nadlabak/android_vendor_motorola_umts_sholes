@@ -155,7 +155,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/umts_sholes/proprietary/lib/liboemcamera.so:/system/lib/liboemcamera.so \
     vendor/motorola/umts_sholes/proprietary/lib/libtpa_core.so:/system/lib/libtpa_core.so \
     vendor/motorola/umts_sholes/proprietary/lib/libril-moto-umts-1.so:/system/lib/libril-moto-umts-1.so \
-    vendor/motorola/umts_sholes/proprietary/lib/libspeech.so:/system/lib/libspeech.so \
     vendor/motorola/umts_sholes/proprietary/lib/libhostapd_client.so:/system/lib/libhostapd_client.so \
     vendor/motorola/umts_sholes/proprietary/lib/libMynetNativeJni.so:/system/lib/libMynetNativeJni.so \
     vendor/motorola/umts_sholes/proprietary/lib/libWifiAPHardware.so:/system/lib/libWifiAPHardware.so \
