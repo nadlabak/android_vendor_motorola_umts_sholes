@@ -91,10 +91,8 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/umts_sholes/proprietary/app/ProgramMenu.apk:/system/app/ProgramMenu.apk \
     vendor/motorola/umts_sholes/proprietary/app/ProgramMenuSystem.apk:/system/app/ProgramMenuSystem.apk \
     vendor/motorola/umts_sholes/proprietary/app/PersonalPortal.apk:/system/app/PersonalPortal.apk \
-    vendor/motorola/umts_sholes/proprietary/app/Mynet.apk:/system/app/Mynet.apk \
     vendor/motorola/umts_sholes/proprietary/app/AudioEffectSettings.apk:/system/app/AudioEffectSettings.apk \
     vendor/motorola/umts_sholes/proprietary/app/CompassCalibrate.apk:/system/app/CompassCalibrate.apk \
-    vendor/motorola/umts_sholes/proprietary/bin/dnsmasq_mot:/system/bin/dnsmasq_mot \
     vendor/motorola/umts_sholes/proprietary/bin/safe_reboot:/system/bin/safe_reboot \
     vendor/motorola/umts_sholes/proprietary/bin/logfilter-get:/system/bin/logfilter-get \
     vendor/motorola/umts_sholes/proprietary/bin/battd:/system/bin/battd \
@@ -118,7 +116,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/umts_sholes/proprietary/bin/location:/system/bin/location \
     vendor/motorola/umts_sholes/proprietary/bin/usbd:/system/bin/usbd \
     vendor/motorola/umts_sholes/proprietary/bin/catcommands:/system/bin/catcommands \
-    vendor/motorola/umts_sholes/proprietary/bin/Hostapd:/system/bin/Hostapd \
     vendor/motorola/umts_sholes/proprietary/lib/libIMGegl.so:/system/lib/libIMGegl.so \
     vendor/motorola/umts_sholes/proprietary/lib/libsrv_um.so:/system/lib/libsrv_um.so \
     vendor/motorola/umts_sholes/proprietary/lib/libssmgr.so:/system/lib/libssmgr.so \
@@ -154,11 +151,8 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/umts_sholes/proprietary/lib/libHPImgApi.so:/system/lib/libHPImgApi.so \
     vendor/motorola/umts_sholes/proprietary/lib/liboemcamera.so:/system/lib/liboemcamera.so \
     vendor/motorola/umts_sholes/proprietary/lib/libtpa_core.so:/system/lib/libtpa_core.so \
-    vendor/motorola/umts_sholes/proprietary/lib/libril-moto-umts-1.so:/system/lib/libril-moto-umts-1.so \
-    vendor/motorola/umts_sholes/proprietary/lib/libhostapd_client.so:/system/lib/libhostapd_client.so \
-    vendor/motorola/umts_sholes/proprietary/lib/libMynetNativeJni.so:/system/lib/libMynetNativeJni.so \
-    vendor/motorola/umts_sholes/proprietary/lib/libWifiAPHardware.so:/system/lib/libWifiAPHardware.so \
-    vendor/motorola/umts_sholes/proprietary/lib/libWifiAPNativeJni.so:/system/lib/libWifiAPNativeJni.so
+    vendor/motorola/umts_sholes/proprietary/lib/libril-moto-umts-1.so:/system/lib/libril-moto-umts-1.so
+
 #    vendor/motorola/umts_sholes/proprietary/lib/libOMX.TI.AAC.decode.so:/system/lib/libOMX.TI.AAC.decode.so \
 #    vendor/motorola/umts_sholes/proprietary/lib/libOMX.TI.AAC.encode.so:/system/lib/libOMX.TI.AAC.encode.so \
 #    vendor/motorola/umts_sholes/proprietary/lib/libOMX.TI.AMR.decode.so:/system/lib/libOMX.TI.AMR.decode.so \
