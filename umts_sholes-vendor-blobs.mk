@@ -123,6 +123,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/umts_sholes/proprietary/lib/libsrv_um.so:/system/lib/libsrv_um.so \
     vendor/motorola/umts_sholes/proprietary/lib/libssmgr.so:/system/lib/libssmgr.so \
     vendor/motorola/umts_sholes/proprietary/lib/hw/gralloc.omap3.so:/system/lib/hw/gralloc.omap3.so \
+    vendor/motorola/umts_sholes/proprietary/lib/hw/gps.sholes.so:/system/lib/hw/gps.sholes.so \
     vendor/motorola/umts_sholes/proprietary/lib/libtpa.so:/system/lib/libtpa.so \
     vendor/motorola/umts_sholes/proprietary/lib/libpppd_plugin.so:/system/lib/libpppd_plugin.so \
     vendor/motorola/umts_sholes/proprietary/lib/libpvr2d.so:/system/lib/libpvr2d.so \
@@ -149,7 +150,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/umts_sholes/proprietary/lib/modules/modem_pm_driver.ko:/system/lib/modules/modem_pm_driver.ko \
     vendor/motorola/umts_sholes/proprietary/lib/modules/hid-dummy.ko:/system/lib/modules/hid-dummy.ko \
     vendor/motorola/umts_sholes/proprietary/lib/modules/netmux_linkdriver.ko:/system/lib/modules/netmux_linkdriver.ko \
-    vendor/motorola/umts_sholes/proprietary/lib/libgps.so:/system/lib/libgps.so \
     vendor/motorola/umts_sholes/proprietary/lib/libmotdb.so:/system/lib/libmotdb.so \
     vendor/motorola/umts_sholes/proprietary/lib/libHPImgApi.so:/system/lib/libHPImgApi.so \
     vendor/motorola/umts_sholes/proprietary/lib/liboemcamera.so:/system/lib/liboemcamera.so \
