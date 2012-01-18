@@ -14,7 +14,6 @@
 
 # Prebuilt libraries that are needed to build open-source libraries
 PRODUCT_COPY_FILES := \
-    vendor/motorola/umts_sholes/proprietary/lib/libgps.so:obj/lib/libgps.so \
     vendor/motorola/umts_sholes/proprietary/lib/libcamera.so:obj/lib/libcamera.so \
     vendor/motorola/umts_sholes/proprietary/lib/liboemcamera.so:obj/lib/liboemcamera.so \
     vendor/motorola/umts_sholes/proprietary/lib/libaudio.so:obj/lib/libaudio.so \
@@ -26,12 +25,9 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/umts_sholes/proprietary/framework/com.motorola.android.location.jar:/system/framework/com.motorola.android.location.jar \
     vendor/motorola/umts_sholes/proprietary/framework/mot-framework-res.apk:/system/framework/mot-framework-res.apk \
     vendor/motorola/umts_sholes/proprietary/etc/cameraCalFileDef5M.bin:/system/etc/cameraCalFileDef5M.bin \
-    vendor/motorola/umts_sholes/proprietary/etc/cameraCalFileDef8M.bin:/system/etc/cameraCalFileDef8M.bin \
-    vendor/motorola/umts_sholes/proprietary/etc/01_Vendor_ti_omx.cfg:/system/etc/01_Vendor_ti_omx.cfg
+    vendor/motorola/umts_sholes/proprietary/etc/cameraCalFileDef8M.bin:/system/etc/cameraCalFileDef8M.bin
 
 PRODUCT_COPY_FILES += \
-    vendor/motorola/umts_sholes/proprietary/etc/gpsconfig.xml:/system/etc/gpsconfig.xml \
-    vendor/motorola/umts_sholes/proprietary/etc/excluded-input-devices.xml:/system/etc/excluded-input-devices.xml \
     vendor/motorola/umts_sholes/proprietary/etc/permissions/motorola_platform.xml:/system/etc/permissions/motorola_platform.xml \
     vendor/motorola/umts_sholes/proprietary/etc/permissions/required_hardware.xml:/system/etc/permissions/required_hardware.xml \
     vendor/motorola/umts_sholes/proprietary/etc/motorola/bp_nvm_default/File_Audio4:/system/etc/motorola/bp_nvm_default/File_Audio4 \
@@ -62,31 +58,16 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/umts_sholes/proprietary/etc/motorola/comm_drv/mmins_settings.cfg:/system/etc/motorola/comm_drv/mmins_settings.cfg \
     vendor/motorola/umts_sholes/proprietary/etc/motorola/comm_drv/mmins_cust_emergency_number.cfg:/system/etc/motorola/comm_drv/mmins_cust_emergency_number.cfg \
     vendor/motorola/umts_sholes/proprietary/etc/firmware/wl1271.bin:/system/etc/firmware/wl1271.bin \
-    vendor/motorola/umts_sholes/proprietary/etc/wifi/hostapd.conf.templet:/system/etc/wifi/hostapd.conf.templet \
     vendor/motorola/umts_sholes/proprietary/etc/wifi/fw_wlan1271.bin:/system/etc/wifi/fw_wlan1271.bin \
     vendor/motorola/umts_sholes/proprietary/etc/wifi/fw_tiwlan_ap.bin:/system/etc/wifi/fw_tiwlan_ap.bin \
-    vendor/motorola/umts_sholes/proprietary/etc/wifi/tiwlan_ap.ini:/system/etc/wifi/tiwlan_ap.ini \
     vendor/motorola/umts_sholes/proprietary/xbin/ssmgrd:/system/xbin/ssmgrd \
     vendor/motorola/umts_sholes/proprietary/xbin/pppd:/system/xbin/pppd \
-    vendor/motorola/umts_sholes/proprietary/usr/keylayout/sholesp1a-keypad.kl:/system/usr/keylayout/sholesp1a-keypad.kl \
-    vendor/motorola/umts_sholes/proprietary/usr/keylayout/sholesp0b-keypad.kl:/system/usr/keylayout/sholesp0b-keypad.kl \
-    vendor/motorola/umts_sholes/proprietary/usr/keylayout/cpcap-key.kl:/system/usr/keylayout/cpcap-key.kl \
-    vendor/motorola/umts_sholes/proprietary/usr/keylayout/sholesp2a-keypad.kl:/system/usr/keylayout/sholesp2a-keypad.kl \
-    vendor/motorola/umts_sholes/proprietary/usr/keylayout/sholesp1b-keypad.kl:/system/usr/keylayout/sholesp1b-keypad.kl \
     vendor/motorola/umts_sholes/proprietary/bin/panic_daemon:/system/bin/panic_daemon \
     vendor/motorola/umts_sholes/proprietary/bin/nvm_daemon:/system/bin/nvm_daemon \
     vendor/motorola/umts_sholes/proprietary/bin/brcm_guci_drv:/system/bin/brcm_guci_drv \
     vendor/motorola/umts_sholes/proprietary/bin/gki_pd_notifier:/system/bin/gki_pd_notifier \
     vendor/motorola/umts_sholes/proprietary/bin/bplogd_daemon:/system/bin/bplogd_daemon \
     vendor/motorola/umts_sholes/proprietary/bin/clean_dex.sh:/system/bin/clean_dex.sh \
-    vendor/motorola/umts_sholes/proprietary/usr/keychars/sholesp0b-keypad.kcm.bin:/system/usr/keychars/sholesp0b-keypad.kcm.bin \
-    vendor/motorola/umts_sholes/proprietary/usr/keychars/sholesp2a-keypad-arabic.kcm.bin:/system/usr/keychars/sholesp2a-keypad-arabic.kcm.bin \
-    vendor/motorola/umts_sholes/proprietary/usr/keychars/sholesp2a-keypad-hebrew.kcm.bin:/system/usr/keychars/sholesp2a-keypad-hebrew.kcm.bin \
-    vendor/motorola/umts_sholes/proprietary/usr/keychars/sholesp2a-keypad-russian.kcm.bin:/system/usr/keychars/sholesp2a-keypad-russian.kcm.bin \
-    vendor/motorola/umts_sholes/proprietary/usr/keychars/sholesp2a-keypad-russian2.kcm.bin:/system/usr/keychars/sholesp2a-keypad-russian2.kcm.bin \
-    vendor/motorola/umts_sholes/proprietary/usr/keychars/sholesp1b-keypad.kcm.bin:/system/usr/keychars/sholesp1b-keypad.kcm.bin \
-    vendor/motorola/umts_sholes/proprietary/usr/keychars/sholesp1a-keypad.kcm.bin:/system/usr/keychars/sholesp1a-keypad.kcm.bin \
-    vendor/motorola/umts_sholes/proprietary/usr/keychars/icestorms0a-keypad.kcm.bin:/system/usr/keychars/icestorms0a-keypad.kcm.bin \
     vendor/motorola/umts_sholes/proprietary/app/PhoneConfig.apk:/system/app/PhoneConfig.apk \
     vendor/motorola/umts_sholes/proprietary/app/ProgramMenu.apk:/system/app/ProgramMenu.apk \
     vendor/motorola/umts_sholes/proprietary/app/ProgramMenuSystem.apk:/system/app/ProgramMenuSystem.apk \
@@ -152,22 +133,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/umts_sholes/proprietary/lib/liboemcamera.so:/system/lib/liboemcamera.so \
     vendor/motorola/umts_sholes/proprietary/lib/libtpa_core.so:/system/lib/libtpa_core.so \
     vendor/motorola/umts_sholes/proprietary/lib/libril-moto-umts-1.so:/system/lib/libril-moto-umts-1.so
-
-#    vendor/motorola/umts_sholes/proprietary/lib/libOMX.TI.AAC.decode.so:/system/lib/libOMX.TI.AAC.decode.so \
-#    vendor/motorola/umts_sholes/proprietary/lib/libOMX.TI.AAC.encode.so:/system/lib/libOMX.TI.AAC.encode.so \
-#    vendor/motorola/umts_sholes/proprietary/lib/libOMX.TI.AMR.decode.so:/system/lib/libOMX.TI.AMR.decode.so \
-#    vendor/motorola/umts_sholes/proprietary/lib/libOMX.TI.AMR.encode.so:/system/lib/libOMX.TI.AMR.encode.so \
-#    vendor/motorola/umts_sholes/proprietary/lib/libOMX.TI.JPEG.Encoder.so:/system/lib/libOMX.TI.JPEG.Encoder.so \
-#    vendor/motorola/umts_sholes/proprietary/lib/libOMX.TI.MP3.decode.so:/system/lib/libOMX.TI.MP3.decode.so \
-#    vendor/motorola/umts_sholes/proprietary/lib/libOMX.TI.Video.Decoder.so:/system/lib/libOMX.TI.Video.Decoder.so \
-#    vendor/motorola/umts_sholes/proprietary/lib/libOMX.TI.Video.encoder.so:/system/lib/libOMX.TI.Video.encoder.so \
-#    vendor/motorola/umts_sholes/proprietary/lib/libOMX.TI.WBAMR.decode.so:/system/lib/libOMX.TI.WBAMR.decode.so \
-#    vendor/motorola/umts_sholes/proprietary/lib/libOMX.TI.WBAMR.encode.so:/system/lib/libOMX.TI.WBAMR.encode.so \
-#    vendor/motorola/umts_sholes/proprietary/lib/libOMX.TI.WMA.decode.so:/system/lib/libOMX.TI.WMA.decode.so \
-#    vendor/motorola/umts_sholes/proprietary/lib/libOMX_Core.so:/system/lib/libOMX_Core.so \
-#    vendor/motorola/umts_sholes/proprietary/lib/libVendor_ti_omx.so:/system/lib/libVendor_ti_omx.so \
-#    vendor/motorola/umts_sholes/proprietary/lib/libVendor_ti_omx_config_parser.so:/system/lib/libVendor_ti_omx_config_parser.so \
-#    vendor/motorola/umts_sholes/proprietary/lib/libLCML.so:/system/lib/libLCML.so
 
 PRODUCT_COPY_FILES += \
     vendor/motorola/umts_sholes/proprietary/lib/dsp/wbamrdec_sn.dll64P:/system/lib/dsp/wbamrdec_sn.dll64P \
