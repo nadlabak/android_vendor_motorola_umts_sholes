@@ -1,6 +1,0 @@
-dd_critical_flag=high
-background_download=0
-fota_auto_check_visible=1
-auto_update_enable=1
-retail_marketing_reminder=1
-auto_update_interval=2592000
