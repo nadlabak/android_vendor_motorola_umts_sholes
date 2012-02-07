@@ -1,2 +1,0 @@
-sms_outgoing_check_interval_ms=10000
-sms_outgoing_check_max_count=5
