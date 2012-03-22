@@ -50,12 +50,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/umts_sholes/proprietary/bin/gki_pd_notifier:/system/bin/gki_pd_notifier \
     vendor/motorola/umts_sholes/proprietary/bin/bplogd_daemon:/system/bin/bplogd_daemon \
     vendor/motorola/umts_sholes/proprietary/bin/clean_dex.sh:/system/bin/clean_dex.sh \
-    vendor/motorola/umts_sholes/proprietary/app/PhoneConfig.apk:/system/app/PhoneConfig.apk \
-    vendor/motorola/umts_sholes/proprietary/app/ProgramMenu.apk:/system/app/ProgramMenu.apk \
-    vendor/motorola/umts_sholes/proprietary/app/ProgramMenuSystem.apk:/system/app/ProgramMenuSystem.apk \
-    vendor/motorola/umts_sholes/proprietary/app/PersonalPortal.apk:/system/app/PersonalPortal.apk \
-    vendor/motorola/umts_sholes/proprietary/app/AudioEffectSettings.apk:/system/app/AudioEffectSettings.apk \
-    vendor/motorola/umts_sholes/proprietary/app/CompassCalibrate.apk:/system/app/CompassCalibrate.apk \
     vendor/motorola/umts_sholes/proprietary/bin/safe_reboot:/system/bin/safe_reboot \
     vendor/motorola/umts_sholes/proprietary/bin/logfilter-get:/system/bin/logfilter-get \
     vendor/motorola/umts_sholes/proprietary/bin/battd:/system/bin/battd \
