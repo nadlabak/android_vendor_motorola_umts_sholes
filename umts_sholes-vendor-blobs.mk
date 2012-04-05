@@ -97,7 +97,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/umts_sholes/proprietary/lib/modules/output.ko:/system/lib/modules/output.ko \
     vendor/motorola/umts_sholes/proprietary/lib/modules/sch_htb.ko:/system/lib/modules/sch_htb.ko \
     vendor/motorola/umts_sholes/proprietary/lib/modules/pcbc.ko:/system/lib/modules/pcbc.ko \
-    vendor/motorola/umts_sholes/proprietary/lib/modules/tiap_drv.ko:/system/lib/modules/tiap_drv.ko \
     vendor/motorola/umts_sholes/proprietary/lib/modules/wl127x-test.ko:/system/lib/modules/wl127x-test.ko \
     vendor/motorola/umts_sholes/proprietary/lib/modules/wl127x_test.ko:/system/lib/modules/wl127x_test.ko \
     vendor/motorola/umts_sholes/proprietary/lib/modules/sec.ko:/system/lib/modules/sec.ko \
