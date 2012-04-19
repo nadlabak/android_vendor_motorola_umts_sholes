@@ -71,7 +71,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/umts_sholes/proprietary/bin/pvrsrvinit:/system/bin/pvrsrvinit \
     vendor/motorola/umts_sholes/proprietary/bin/aplogd:/system/bin/aplogd \
     vendor/motorola/umts_sholes/proprietary/bin/location:/system/bin/location \
-    vendor/motorola/umts_sholes/proprietary/bin/usbd:/system/bin/usbd \
     vendor/motorola/umts_sholes/proprietary/bin/catcommands:/system/bin/catcommands \
     vendor/motorola/umts_sholes/proprietary/lib/libIMGegl.so:/system/lib/libIMGegl.so \
     vendor/motorola/umts_sholes/proprietary/lib/libsrv_um.so:/system/lib/libsrv_um.so \
