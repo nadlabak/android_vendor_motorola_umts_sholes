@@ -69,6 +69,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/umts_sholes/proprietary/bin/rild_tcmd:/system/bin/rild_tcmd \
     vendor/motorola/umts_sholes/proprietary/bin/ap_gain.bin:/system/bin/ap_gain.bin \
     vendor/motorola/umts_sholes/proprietary/bin/pvrsrvinit:/system/bin/pvrsrvinit \
+    vendor/motorola/umts_sholes/proprietary/bin/pvrsrvctl:/system/bin/pvrsrvctl \
     vendor/motorola/umts_sholes/proprietary/bin/aplogd:/system/bin/aplogd \
     vendor/motorola/umts_sholes/proprietary/bin/location:/system/bin/location \
     vendor/motorola/umts_sholes/proprietary/bin/catcommands:/system/bin/catcommands \
@@ -84,6 +85,9 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/umts_sholes/proprietary/lib/egl/libGLESv1_CM_POWERVR_SGX530_121.so:/system/lib/egl/libGLESv1_CM_POWERVR_SGX530_121.so \
     vendor/motorola/umts_sholes/proprietary/lib/egl/libEGL_POWERVR_SGX530_121.so:/system/lib/egl/libEGL_POWERVR_SGX530_121.so \
     vendor/motorola/umts_sholes/proprietary/lib/libpvrANDROID_WSEGL.so:/system/lib/libpvrANDROID_WSEGL.so \
+    vendor/motorola/umts_sholes/proprietary/lib/libPVRScopeServices.so:/system/lib/libPVRScopeServices.so \
+    vendor/motorola/umts_sholes/proprietary/lib/libsrv_init.so:/system/lib/libsrv_init.so \
+    vendor/motorola/umts_sholes/proprietary/lib/libusc.so:/system/lib/libusc.so \
     vendor/motorola/umts_sholes/proprietary/lib/libcamera.so:/system/lib/libcamera.so \
     vendor/motorola/umts_sholes/proprietary/lib/libaudio.so:/system/lib/libaudio.so \
     vendor/motorola/umts_sholes/proprietary/lib/libbattd.so:/system/lib/libbattd.so \
