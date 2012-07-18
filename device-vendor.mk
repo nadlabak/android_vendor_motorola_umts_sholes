@@ -17,7 +17,6 @@ include $(all-subdir-makefiles)
 PRODUCT_PACKAGES += \
     AudioEffectSettings \
     CompassCalibrate \
-    PersonalPortal \
     PhoneConfig \
     ProgramMenu \
     ProgramMenuSystem
