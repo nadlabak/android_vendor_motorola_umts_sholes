@@ -62,7 +62,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/umts_sholes/proprietary/bin/logfilter-set:/system/bin/logfilter-set \
     vendor/motorola/umts_sholes/proprietary/bin/watchdogd:/system/bin/watchdogd \
     vendor/motorola/umts_sholes/proprietary/bin/bttest_mot:/system/bin/bttest_mot \
-    vendor/motorola/umts_sholes/proprietary/bin/ap_gain_france.bin:/system/bin/ap_gain_france.bin \
+    vendor/motorola/umts_sholes/proprietary/bin/ap_gain_mmul.bin:/system/bin/ap_gain_mmul.bin \
     vendor/motorola/umts_sholes/proprietary/bin/gkisystem:/system/bin/gkisystem \
     vendor/motorola/umts_sholes/proprietary/bin/opprofdaemon:/system/bin/opprofdaemon \
     vendor/motorola/umts_sholes/proprietary/bin/rild_tcmd:/system/bin/rild_tcmd \
