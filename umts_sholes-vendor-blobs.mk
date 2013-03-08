@@ -16,7 +16,7 @@
 PRODUCT_COPY_FILES := \
     vendor/motorola/umts_sholes/proprietary/lib/libcamera.so:obj/lib/libcamera.so \
     vendor/motorola/umts_sholes/proprietary/lib/liboemcamera.so:obj/lib/liboemcamera.so \
-    vendor/motorola/umts_sholes/proprietary/lib/libaudio.so:obj/lib/libaudio.so \
+    vendor/motorola/umts_sholes/proprietary/lib/libaudio_ms.so:obj/lib/libaudio.so \
     vendor/motorola/umts_sholes/proprietary/lib/libril-moto-umts-1.so:obj/lib/libril-moto-umts-1.so \
     vendor/motorola/umts_sholes/proprietary/lib/hw/gralloc.omap3.so:obj/lib/hw/gralloc.omap3.so
 
@@ -62,11 +62,13 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/umts_sholes/proprietary/bin/logfilter-set:/system/bin/logfilter-set \
     vendor/motorola/umts_sholes/proprietary/bin/watchdogd:/system/bin/watchdogd \
     vendor/motorola/umts_sholes/proprietary/bin/bttest_mot:/system/bin/bttest_mot \
-    vendor/motorola/umts_sholes/proprietary/bin/ap_gain_mmul.bin:/system/bin/ap_gain_mmul.bin \
     vendor/motorola/umts_sholes/proprietary/bin/gkisystem:/system/bin/gkisystem \
     vendor/motorola/umts_sholes/proprietary/bin/opprofdaemon:/system/bin/opprofdaemon \
     vendor/motorola/umts_sholes/proprietary/bin/rild_tcmd:/system/bin/rild_tcmd \
-    vendor/motorola/umts_sholes/proprietary/bin/ap_gain.bin:/system/bin/ap_gain.bin \
+    vendor/motorola/umts_sholes/proprietary/bin/ap_gain_dp.bin:/system/bin/ap_gain_dp.bin \
+    vendor/motorola/umts_sholes/proprietary/bin/ap_gain_ms.bin:/system/bin/ap_gain_ms.bin \
+    vendor/motorola/umts_sholes/proprietary/bin/ap_gain_mmul.bin:/system/bin/ap_gain_mmul.bin \
+    vendor/motorola/umts_sholes/proprietary/bin/ap_gain_france.bin:/system/bin/ap_gain_france.bin \
     vendor/motorola/umts_sholes/proprietary/bin/pvrsrvinit:/system/bin/pvrsrvinit \
     vendor/motorola/umts_sholes/proprietary/bin/pvrsrvctl:/system/bin/pvrsrvctl \
     vendor/motorola/umts_sholes/proprietary/bin/aplogd:/system/bin/aplogd \
@@ -88,7 +90,9 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/umts_sholes/proprietary/lib/libsrv_init.so:/system/lib/libsrv_init.so \
     vendor/motorola/umts_sholes/proprietary/lib/libusc.so:/system/lib/libusc.so \
     vendor/motorola/umts_sholes/proprietary/lib/libcamera.so:/system/lib/libcamera.so \
-    vendor/motorola/umts_sholes/proprietary/lib/libaudio.so:/system/lib/libaudio.so \
+    vendor/motorola/umts_sholes/proprietary/lib/libaudio_dp.so:/system/lib/libaudio_dp.so \
+    vendor/motorola/umts_sholes/proprietary/lib/libaudio_ms.so:/system/lib/libaudio_ms.so \
+    vendor/motorola/umts_sholes/proprietary/lib/libaudio_ms.so:/system/lib/libaudio.so \
     vendor/motorola/umts_sholes/proprietary/lib/libbattd.so:/system/lib/libbattd.so \
     vendor/motorola/umts_sholes/proprietary/lib/libsecclkdlib.so:/system/lib/libsecclkdlib.so \
     vendor/motorola/umts_sholes/proprietary/lib/libglslcompiler.so:/system/lib/libglslcompiler.so \
