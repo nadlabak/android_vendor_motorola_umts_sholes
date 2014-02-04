@@ -20,6 +20,10 @@ PRODUCT_COPY_FILES := \
     vendor/motorola/umts_sholes/proprietary/lib/libril-moto-umts-1.so:obj/lib/libril-moto-umts-1.so \
     vendor/motorola/umts_sholes/proprietary/lib/hw/gralloc.omap3.so:obj/lib/hw/gralloc.omap3.so
 
+ifeq ($(WEBCORE_ACCELERATED_SCROLLING), true)
+    PRODUCT_COPY_FILES += vendor/motorola/umts_sholes/proprietary/lib/libwebkitaccel.so:obj/lib/libwebkitaccel.so
+endif
+
 # All the blobs necessary 
 PRODUCT_COPY_FILES += \
     vendor/motorola/umts_sholes/proprietary/framework/com.motorola.android.location.jar:/system/framework/com.motorola.android.location.jar \
@@ -105,6 +109,10 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/umts_sholes/proprietary/lib/libril-moto-umts-1.so:/system/lib/libril-moto-umts-1.so \
     vendor/motorola/umts_sholes/proprietary/lib/libOMX.TI.mp4.splt.Encoder.so:system/lib/libOMX.TI.mp4.splt.Encoder.so \
     vendor/motorola/umts_sholes/proprietary/lib/libOMX.TI.h264.splt.Encoder.so:system/lib/libOMX.TI.h264.splt.Encoder.so
+
+ifeq ($(WEBCORE_ACCELERATED_SCROLLING), true)
+    PRODUCT_COPY_FILES += vendor/motorola/umts_sholes/proprietary/lib/libwebkitaccel.so:/system/lib/libwebkitaccel.so
+endif
 
 PRODUCT_COPY_FILES += \
     vendor/motorola/umts_sholes/proprietary/lib/dsp/wbamrdec_sn.dll64P:/system/lib/dsp/wbamrdec_sn.dll64P \
